@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	/* add path classes to body tag */
-	classpaths($('body'))
-}
+	baseClass($('body'))
+})
 
 /* BaseClass */
 /* take document path and add each level as a class attribute on the object passed in */
